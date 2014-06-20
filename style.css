@@ -501,7 +501,7 @@ a:active {
     .menu-toggle a:hover,
     .menu-toggle a:focus {
         background: #4d4d4d;
-    background: hsl(0, 0%, 30%);
+        background: hsl(0, 0%, 30%);
     }
 
     .main-navigation.toggled .nav-menu {
