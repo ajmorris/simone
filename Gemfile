@@ -3,7 +3,7 @@ source "http://rubygems.org"
 group :development do
   gem 'sass'                    # Sass.
   gem 'sass-globbing'           # Import Sass files based on globbing pattern.
-  gem 'compass', "0.12.2"       # Framework built on Sass.
+  gem 'compass'                 # Framework built on Sass.
   gem 'compass-validator'       # So you can `compass validate`.
   gem 'oily_png'                # Faster Compass sprite generation.
   gem 'css_parser'              # Helps `compass stats` output statistics.
