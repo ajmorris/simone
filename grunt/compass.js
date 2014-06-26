@@ -15,7 +15,15 @@ module.exports = {
 
     prod: {
         options: {
-            config: 'config.rb',
+            sassDir: 'sass',
+            cssDir: 'stylesheets',
+            fontsDir: 'fonts',
+            javascriptDir: 'js',
+            imagesDir: 'images',
+            relativeAssets: true,
+            environment: 'development',
+            outputStyle: 'compressed',
+            noLineComments: true,
             force: true
         }
     }
